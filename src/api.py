@@ -20,6 +20,7 @@ from llamafactory.api.app import create_app
 from llamafactory.chat import ChatModel
 
 
+# test
 def main():
     chat_model = ChatModel()
     app = create_app(chat_model)
